@@ -21,7 +21,7 @@ function destructuring(obj) {
 
 // use template literal to return a string with the sum of a and b
 function templateString(a, b) {
-  return "The sum is equal to " + (a + b).toString();
+  return `The sum is equal to ${(a + b).toString()}`;
 }
 
 module.exports = {

@@ -1,11 +1,12 @@
 function greetPeople(people) {
   var greeting = "Hello ";
+  var greet = [];
 
   people.forEach(function(person) {
-    greeting = greeting + person;
+    sayGreeting = [greeting + greet.push(people)];
   });
 
-  return greeting;
+  return sayGreeting;
 }
 
 module.exports = greetPeople;
